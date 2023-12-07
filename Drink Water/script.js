@@ -1,7 +1,12 @@
+//All small cups
 const smallCups = document.querySelectorAll('.cup-small');
+//Large cup area
 const liters = document.getElementById('liters');
+//Percentage of water display
 const percentage = document.getElementById('percentage');
+//Water reamining display
 const remained = document.getElementById('remained');
+
 
 smallCups.forEach((cup, x) => {
     cup.addEventListener('click',() => highlightCups(x))
